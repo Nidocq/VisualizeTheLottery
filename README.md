@@ -1,4 +1,4 @@
-#Scraping and visualizing the winning Euro Jackpot numbers
+# Scraping and visualizing the winning Euro Jackpot numbers
 
 Python Script that visualizes the winning numbers by adding the numbers together to form a 2-axis.
 A future project could be to create a machine learning model to predict a winning lottery ticket.
