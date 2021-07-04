@@ -9,7 +9,7 @@ It is being trained on about 10% success data and 90% created dummy data
 Give it a try to see if your lottery ticket will pass this test
 
 ![Alt text](./graph.png "Visual representation")
-![Alt text](./terminal.png"Visual representation")
+![Alt text](./terminal.png "Visual representation")
 
 Requirements
 1. matplotlib
