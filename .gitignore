@@ -1,2 +1,4 @@
 lottery_numbers.txt
 test.py
+model.joblib
+__pycache__

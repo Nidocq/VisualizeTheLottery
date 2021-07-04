@@ -1,27 +1,36 @@
 # Scraping and visualizing the winning Euro Jackpot numbers
 
-Python Script that visualizes the winning numbers by adding the numbers together to form a 2-axis.
-A future project could be to create a machine learning model to predict a winning lottery ticket.
+Python script that visualizes the learning capabilities of the most popular model classifiers, as well as making educated predictions to a valid future lottery ticket.
+It uses the data from the results archive on the euro-jackpot website
+https://www.euro-jackpot.net/en/results-archive-2020
 
-![Alt text](./screen.png "Visual representation")
+It is being trained on about 10% success data and 90% created dummy data
+
+Give it a try to see if your lottery ticket will pass this test
+
+![Alt text](./graph.png "Visual representation")
+![Alt text](./terminal.png"Visual representation")
 
 Requirements
-1. Seaborn
-2. matplotlib
-3. numpy
-4. BeautifulSoup
-5. Requests
+1. matplotlib
+2. numpy
+3. BeautifulSoup
+4. Requests
 
-You can install these libraries with 
+## You can install these libraries with 
 
 ```bash
-python3 -m pip install seaborn matplotlib numpy BeautifulSoup requests
+python3 -m pip install matplotlib numpy BeautifulSoup requests
 ```
 
-To run the script you simply type
+```bash
+git clone https://github.com/Nidocq/VisualizeTheLottery.git
+```
+
+## To run the script you simply type
 
 ```bash
-python3 lotto.py
+python3 main.py
 ```
 
 

@@ -62,7 +62,7 @@ def runModel(lottery_number):
 		try:
 			print(f"Model testscore is : {MLP_model.score(xte, yte)}")
 			print(f"Model Prediction : {MLP_model.predict([lottery_number])}")
-			print(f"Model Porbability : {MLP_model.predict_proba([lottery_number])}")
+			print(f"Model Probability : {MLP_model.predict_proba([lottery_number])}")
 		except ValueError:
 			print("Please provide 7 arguments")
 
@@ -73,6 +73,6 @@ def runModel(lottery_number):
 		try:
 			print(f"Model testscore is : {MLP_model.score(xte, yte)}")
 			print(f"Model Prediction : {MLP_model.predict([lottery_number])}")
-			print(f"Model Porbability : {MLP_model.predict_proba([lottery_number])}")
+			print(f"Model Probability : {MLP_model.predict_proba([lottery_number])}")
 		except ValueError:
 			print("Please provide 7 arguments")
